@@ -252,6 +252,25 @@ img {
   text-align: center;
   font-size: 0.85rem;
 }
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    border-radius: 1rem;
+    border: 1px solid rgba(148, 163, 184, 0.4);
+    box-shadow: 0 16px 40px rgba(15, 23, 42, 0.6);
+    background: #020617;
+  }
+  
+  .video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
 
 /* Responsive */
 @media (max-width: 768px) {
